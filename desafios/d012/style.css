@@ -9,7 +9,8 @@
 
 :root {
     --fonte-h1: 'Passion One', cursive;
-    --fonte-p: 'Verdana', 'Arial', cursive;
+    --fonte-body: 'Verdana', 'Arial', cursive;
+    --fonte-p: 'Sriracha', cursive;
 } 
 
 * {
@@ -18,7 +19,7 @@
 }
 
 header {
-    min-height: 17vw;
+    height: 25vw;
     background-color: black;
     text-align: center;
 }
@@ -28,13 +29,15 @@ header h1 {
     font-family: var(--fonte-h1);
     font-size: 9vw;
     padding-top: 50px;
+    text-transform: uppercase;
 }
 
 header p {
     color: white;
-    font-family: var(--fonte-p);
+    font-family: var(--fonte-body);
     padding-bottom: 50px;
 }
+
 
 .link {
     text-decoration: none;
@@ -43,8 +46,30 @@ header p {
 }
 
 main {
-    font-family: 'Sriracha', cursive;
+    font-family: var(--fonte-p);
     font-size: 3vw;
-    font-weight: bold;
     font-style: italic;
+    font-weight: 800;
+    padding-left: 30px;
+
+    line-height: 1em;
+}
+ 
+.texto {
+    padding: 40px 0px;
+}  
+
+#primeiro {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+    height: 400px;
+    
+}
+
+section div {
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 50%;
+    color: white;
 }
