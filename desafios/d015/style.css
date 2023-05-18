@@ -5,18 +5,28 @@
 }
 
 body {
-    background-image: url(imagens/fundo-madeira.jpg);
-    background-repeat: no-repeat;
+    background: url(imagens/fundo-madeira.jpg) no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 div {
+    display: block;
+    margin: auto;
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center center;
     background-size: contain;
-    height: 70vh;
-    width: 50vw;
+    height: 75vh;
+    margin-top: 100px;
+}
+
+div > img {
+    display: block;
     margin: auto;
+    height: 55vh;
+    width: 18vw;
+}
+
+img.tela {
+
 }
