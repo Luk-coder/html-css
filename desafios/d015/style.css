@@ -9,24 +9,15 @@ body {
     background-size: cover;
 }
 
-div {
+iframe {
     display: block;
     margin: auto;
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    height: 75vh;
+    height: 60vh;
+    width: 35vw;
     margin-top: 100px;
 }
 
-div > img {
-    display: block;
-    margin: auto;
-    height: 55vh;
-    width: 18vw;
-}
-
-img.tela {
-
-}
